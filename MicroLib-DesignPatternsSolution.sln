@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroLib.DesignPatterns", "MicroLib.DesignPatterns\MicroLib.DesignPatterns.csproj", "{666F5DD9-765F-4CFA-847A-C43EB56DE1BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroLib.DesignPatternsTests", "MicroLib.DesignPatternsTests\MicroLib.DesignPatternsTests.csproj", "{F30985A3-53DB-4317-902C-822C3C0EC993}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{62A691AB-5382-4430-BCAB-CDCEEF753A5D}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{666F5DD9-765F-4CFA-847A-C43EB56DE1BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{666F5DD9-765F-4CFA-847A-C43EB56DE1BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{666F5DD9-765F-4CFA-847A-C43EB56DE1BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{666F5DD9-765F-4CFA-847A-C43EB56DE1BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F30985A3-53DB-4317-902C-822C3C0EC993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F30985A3-53DB-4317-902C-822C3C0EC993}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F30985A3-53DB-4317-902C-822C3C0EC993}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F30985A3-53DB-4317-902C-822C3C0EC993}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76798B9A-8230-4FFF-A085-0849DC14BE45}
+	EndGlobalSection
+EndGlobal
