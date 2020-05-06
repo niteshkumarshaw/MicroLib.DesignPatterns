@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroLib.DesignPatterns", "MicroLib.DesignPatterns\MicroLib.DesignPatterns.csproj", "{666F5DD9-765F-4CFA-847A-C43EB56DE1BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroLib.DesignPatternsTests", "MicroLib.DesignPatternsTests\MicroLib.DesignPatternsTests.csproj", "{F30985A3-53DB-4317-902C-822C3C0EC993}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroLib.DesignPatternsTests", "MicroLib.DesignPatternsTests\MicroLib.DesignPatternsTests.csproj", "{F30985A3-53DB-4317-902C-822C3C0EC993}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{62A691AB-5382-4430-BCAB-CDCEEF753A5D}"
 	ProjectSection(SolutionItems) = preProject
