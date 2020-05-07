@@ -66,8 +66,8 @@ namespace MicroLib.DesignPatternsTests.RepositoryPattern
             var dels = repo.Find(e => e.FullName == "Jhon Doe");
             repo.Remove(dels);
 
-            var list = repo.GetAllAsync().Result;
             ctx.SaveChangesAsync().Wait();
+            var list = repo.GetAllAsync().Result;
 
             Assert.AreEqual(1, list.ToList().Count);
         }
